@@ -105,4 +105,4 @@ curl -s -X POST http://localhost:8000/api/triage \
 
 - Swap local `sqlite3` order lookups and audit logging in `backend/database.py` for **Amazon DynamoDB** or **Amazon RDS**.
 - Swap `LocalPolicyRetriever` in `backend/rag_engine.py` for **Amazon Bedrock Knowledge Bases** as policy documents scale.
-- Add **Amazon Bedrock Guardrails** around `converse` calls for PII redaction and strict policy enforcement.
+- Add **Amazon Bedrock Guardrails** around `converse` calls for PII redaction and strict policy enforcement
